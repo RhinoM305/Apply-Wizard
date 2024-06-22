@@ -1,0 +1,19 @@
+{
+  "name": "apply-wizard",
+  "version": "1.0.0",
+  "description": "LinkedIn apply bot",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "discord-interactions": "^4.0.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
