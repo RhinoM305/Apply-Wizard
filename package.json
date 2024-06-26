@@ -4,14 +4,15 @@
   "description": "LinkedIn apply bot",
   "main": "src/app.js",
   "scripts": {
-    "start": "node src/server.js",
-    "dev": "nodemon src/server.js"
+    "start": "nodemon src/server.js",
+    "puppet": "node src/Puppeteer/puppeteerBrowserProtocol.js"
   },
   "dependencies": {
     "discord-interactions": "^4.0.0",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
-    "node-fetch": "^3.3.2"
+    "node-fetch": "^3.3.2",
+    "puppeteer": "^22.12.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.4"
